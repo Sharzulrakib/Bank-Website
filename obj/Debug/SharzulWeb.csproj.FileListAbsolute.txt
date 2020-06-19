@@ -1,0 +1,9 @@
+c:\users\sharzul\documents\visual studio 2012\Projects\SharzulWeb\SharzulWeb\bin\SharzulWeb.dll
+c:\users\sharzul\documents\visual studio 2012\Projects\SharzulWeb\SharzulWeb\bin\SharzulWeb.pdb
+c:\users\sharzul\documents\visual studio 2012\Projects\SharzulWeb\SharzulWeb\obj\Debug\SharzulWeb.dll
+c:\users\sharzul\documents\visual studio 2012\Projects\SharzulWeb\SharzulWeb\obj\Debug\SharzulWeb.pdb
+E:\OTHERS\SharzulWeb\SharzulWeb\bin\SharzulWeb.dll
+E:\OTHERS\SharzulWeb\SharzulWeb\bin\SharzulWeb.pdb
+E:\OTHERS\SharzulWeb\SharzulWeb\obj\Debug\SharzulWeb.csprojResolveAssemblyReference.cache
+E:\OTHERS\SharzulWeb\SharzulWeb\obj\Debug\SharzulWeb.dll
+E:\OTHERS\SharzulWeb\SharzulWeb\obj\Debug\SharzulWeb.pdb

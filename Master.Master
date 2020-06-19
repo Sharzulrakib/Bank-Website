@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="SharzulWeb.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="CSS/Master.css" rel="stylesheet" type="text/css"/> 
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <div id="Navbar">
+			<img src="Images/Yes_Bank_SVG_Logo.svg">
+			<div id="NavbarLink">
+				<div class="link"><a href="Home.aspx">Home</a></div>
+                <div class="link">
+                    <a href="About.aspx">About Us</a>
+                    <div class="drpdn">
+						<a href="AtAGlance.aspx">- Yes Bank At a Glance</a>
+						<a href="VisionMission.aspx">- Vision And Mission</a>
+					</div>
+                </div>
+				<div class="link">
+                    <a href="Services.aspx">Services</a>
+                    <div class="drpdn">
+						<a href="OnlineBanking.aspx">- Online Banking</a>
+						<a href="Atm.aspx">- ATM Service</a>
+						<a href="Remittance.aspx">- Foreign Remittance</a>
+						<a href="Sms.aspx">- SMS Banking</a>
+					</div>
+				</div>
+				<div class="link"><a href="Branches.aspx">Branches</a></div>
+				<div class="link"><a href="ContactUs.aspx">Contact Us</a></div>
+				<div class="link"><a href="SignUp.aspx">Sign up</a></div>
+				
+			</div>
+		</div>
+		<div id="searchholder">
+			<div id="searchbtn">Search</div>
+			<input id="searchInput" placeholder="Search Here">
+			
+		</div>
+    </header>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer>
+            <div id="BottomName">
+				<img style="height:100%; width: 20%;float:left; background-color:#F5F5F5;padding-left:20px" src="Images/Yes_Bank_SVG_Logo.svg">
+				<div style="height:100%;width: 80%; float:left;background-color:#F5F5F5; display: flex; justify-content:center; flex-direction: column; padding-left:20px">
+					<h1>Yes Bank</h1>
+					<p>Bangladesh Krishi Bank (BKB) is a 100% government owned specialized Bank in Bangladesh.</p>
+				</div>
+			</div>
+            <div id="footer" style="height:200px; background-color:#0033cc">
+                <a href="Home.aspx">Home</a>
+                <a href="About.aspx">About Us</a>
+                <a href="AtAGlance.aspx">Yes Bank At a Glance</a>
+				<a href="VisionMission.aspx">Vision And Mission</a>
+                <a href="OnlineBanking.aspx">Online Banking</a>
+				<a href="Atm.aspx">ATM Service</a>
+				<a href="Remittance.aspx">Foreign Remittance</a>
+				<a href="Sms.aspx">SMS Banking</a>
+                <a href="Branches.aspx">Branches</a>
+				<a href="ContactUs.aspx">Contact Us</a>
+				<a href="SignUp.aspx">Sign up</a>
+			</div>
+        </footer>
+    </form>
+</body>
+</html>

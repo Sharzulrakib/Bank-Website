@@ -1,0 +1,38 @@
+﻿#Title-container{
+	height: 150px;
+	background-image: url(images/topback.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+#Title-container h1{
+	padding: 40px;
+	font-size: 50px;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(230, 230, 230, 0.3);
+	color: white;
+}
+.contactcontainer {
+    height:100%;
+    width:50%;
+    float: left;
+    padding:50px;
+}
+
+    .contactcontainer input {
+        width:100%;
+        height:50px;
+        margin: 10px 0;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid blue;
+    }
+
+    .contactcontainer h1 {
+        color: indianred;
+    }
+    .contactcontainer p {
+        color: darkslateblue;
+        margin: 10px 0;
+    }
